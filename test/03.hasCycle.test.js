@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import hasCycle from "../lib/03.linkedListCycle";
+import hasCycle from "../lib/03.hasCycle.js";
 
 describe("should pass all cases", function () {
   it("should pass base cases", function () {
