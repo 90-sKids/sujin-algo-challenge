@@ -1,0 +1,17 @@
+{
+  "name": "algorithm-challenge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "알고리즘 뇌를 깨우기 위한 챌린지",
+  "author": "soozynn <junsuejin98@gmail.com>",
+  "scripts": {
+    "test": "mocha --require @babel/register --recursive"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/register": "^7.23.7",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}
