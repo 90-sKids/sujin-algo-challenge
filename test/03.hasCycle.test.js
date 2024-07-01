@@ -3,8 +3,8 @@ import hasCycle from "../lib/03.hasCycle.js";
 
 describe("should pass all cases", function () {
   it("should pass base cases", function () {
-    expect(hasCycle([3,2,0,-4], 1)).to.eql(true);
-    expect(hasCycle([1,2], 0)).to.eql(true);
+    expect(hasCycle([3,2,0,-4])).to.eql(true);
+    expect(hasCycle([1,2])).to.eql(true);
     expect(hasCycle([1, -1])).to.eql(false);
   });
 
